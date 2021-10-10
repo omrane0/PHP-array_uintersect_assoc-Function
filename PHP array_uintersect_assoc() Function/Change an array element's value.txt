@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+function myfunction(&$value,$key)
+{
+$value="yellow";
+}
+$a=array("a"=>"red","b"=>"green","c"=>"blue");
+array_walk($a,"myfunction");
+print_r($a);
+?>
+
+</body>
+</html>
+
+
+
+
+
+Array ( [a] => yellow [b] => yellow [c] => yellow )

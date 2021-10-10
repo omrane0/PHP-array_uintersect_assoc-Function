@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a=array("a"=>"red","b"=>"green");
+print_r(array_unshift($a,"blue"));
+?>
+
+</body>
+</html>
+
+
+
+3

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$a=array("a"=>"red","b"=>"green");
+array_unshift($a,"blue");
+print_r($a);
+?>
+
+</body>
+</html>
+
+
+
+
+
+Array ( [0] => blue [a] => red [b] => green )
